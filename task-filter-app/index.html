@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Filter App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Task Filter App</h1>
+
+    <div class="filters">
+      <label><input type="checkbox" value="completed" id="checkCompleted" onchange="filterTask()"/> Completed</label>
+      <label><input type="checkbox" value="pending" id="checkPending"  onchange="filterTask()"/> Pending</label>
+    </div>
+
+    <ul class="task-list">
+      <li data-status="completed">✔️ Learn JavaScript</li>
+      <li data-status="pending">🕒 Build a To-Do App</li>
+      <li data-status="completed">✔️ Practice DOM</li>
+      <li data-status="pending">🕒 Style with CSS</li>
+    </ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

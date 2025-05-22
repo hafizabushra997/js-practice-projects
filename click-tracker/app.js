@@ -9,6 +9,6 @@ clickBtn.addEventListener('click',()=>{
 })
 resetBtn.addEventListener('click',()=>{
     count=0
-        clickCount.innerText=count
+    clickCount.innerText=count
     // clickCount.innerText = Math.max(count, 0);  // For later use
 })
