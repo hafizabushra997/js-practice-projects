@@ -1,73 +1,68 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #c2185b, #ad1457);
-  transition: background 0.5s ease;
-  color: #fff;
+  margin: 0;
+  padding: 0;
+  background: #ffe6f0;
+  color: #333;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .container {
-  max-width: 500px;
-  margin: 100px auto;
+  max-width: 600px;
+  margin: 50px auto;
   padding: 30px;
   text-align: center;
   background-color: #fff0f5;
-  box-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
-  border-radius: 12px;
-  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightpink;
+  color: rgb(220, 30, 131);
 }
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #ad1457;
-}
-
-.buttons {
-  margin-bottom: 20px;
-}
-
-button {
+.button {
   padding: 10px 20px;
-  margin: 5px;
-  font-size: 1rem;
-  border: none;
-  background-color: #ff1493;
+  margin: 10px 5px;
+  font-size: 16px;
+  background-color: deeppink;
   color: white;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: transform 0.2s, background-color 0.3s;
-}
-
-button:hover {
-  transform: scale(1.05);
-  background-color: #c2185b;
-}
-
-#customColor {
-  margin-top: 20px;
-  width: 60px;
-  height: 40px;
   border: none;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+  border-radius: 5px;
   cursor: pointer;
-  transition: transform 0.2s;
 }
 
-#customColor:hover {
-  transform: scale(1.1);
+.button:hover {
+  opacity: 0.9;
 }
 
-#currentColor {
-  margin-top: 20px;
-  font-size: 1.2rem;
+input[type="color"] {
+  width: 50px;
+  height: 35px;
+  padding: 0;
+  margin-left: 10px;
+  border: 2px solid deeppink;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#currentColorText {
   font-weight: bold;
+  color: deeppink;
 }
 
-#currentColor span {
-  color: #ff1493;
-  font-weight: bold;
-  margin-left: 6px;
-  text-transform: capitalize;
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode .container {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #444;
+}
+
+.dark-mode .button {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode input[type="color"] {
+  border: 2px solid #888;
 }

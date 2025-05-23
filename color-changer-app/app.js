@@ -5,6 +5,12 @@ let blueBtn = document.getElementById('blue');
 let resetBtn = document.getElementById('reset');
 let currentColorText = document.querySelector('span');
 let customColor = document.getElementById('customColor');
+let toggleDarkModeBtn = document.getElementById('toggleDarkMode');
+
+// Toggle dark mode
+toggleDarkModeBtn.addEventListener('click', () => {
+  body.classList.toggle('dark-mode');
+});
 
 // Function to update the displayed current background color
 function updateCurrentColor() {

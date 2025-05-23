@@ -7,19 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div class="container">
-    <h1>Color Changer</h1>
-
+    <h1>🎨 Color Changer App</h1>
+    
     <div class="buttons">
-      <button id="red">Red</button>
-      <button id="green">Green</button>
-      <button id="blue">Blue</button>
-      <button id="reset">Reset</button>
+      <button class="button" id="red">Red</button>
+      <button class="button" id="green">Green</button>
+      <button class="button" id="blue">Blue</button>
+      <button class="button" id="reset">Reset</button>
+      <input type="color" id="customColor" />
     </div>
 
-    <input type="color" id="customColor" />
-    <p id="currentColor">Current Color: <span>White</span></p>
+    <p>Current Background: <span id="currentColorText">white</span></p>
+
+    <button class="button toggle" id="toggleDarkMode">🌙 Toggle Dark Mode</button>
   </div>
 
   <script src="app.js"></script>
