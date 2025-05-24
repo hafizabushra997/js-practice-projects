@@ -1,0 +1,75 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #d16ba5, #86a8e7, #5ffbf1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Heading */
+h1 {
+  font-size: 28px;
+  color: #4b0082; /* Deep indigo for a strong heading */
+  margin-bottom: 25px;
+}
+
+/* Input */
+input[type="text"] {
+  padding: 14px 16px;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s ease;
+  margin-bottom: 20px;
+  color: #333; /* Input text color */
+}
+
+input[type="text"]::placeholder {
+  color: #6a878a; /* Subtle and soft placeholder */
+  font-style: italic;
+}
+
+input[type="text"]:focus {
+  border-color: #7b2ff7;
+  box-shadow: 0 0 8px rgba(123, 47, 247, 0.3);
+}
+
+/* Output Paragraph */
+.output {
+  font-size: 18px;
+  color: #2c2c43; /* Almost black for high readability */
+}
+
+/* Key Display Span */
+#keyDisplay {
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4ecbe4; /* Deep pink background */
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin-left: 8px;
+  transition: 0.3s ease;
+}
