@@ -8,10 +8,11 @@ A series of JavaScript projects aimed at enhancing coding skills and problem-sol
 
 | Project | Description |
 |--------|-------------|
-| [Calculator](./calculator) | A simple calculator with basic math operations. |
 | [To-Do App](./todo-app) | A to-do list with add, remove, and local storage features. |
-| [Color Changer](./color-changer) | Change the background color using buttons or input. |
+| [Task Filter App](./task-filter-app) | Filter task list based on selected checkbox. |
+| [Color Changer](./color-changer-app) | Change the background color using buttons or input. |
 | [Counter App](./counter-app) | A counter app with increment, decrement, and reset options. |
+
 
 ---
 
