@@ -8,7 +8,7 @@ A series of JavaScript projects aimed at enhancing coding skills and problem-sol
 
 | Project | Description |
 |--------|-------------|
-| [Notes App](./notes-app) | A to-do list with add, remove, and local storage features. |
+| [Notes App](./notes-app) | A note list with add, remove, and local storage features. |
 | [Task Filter App](./task-filter-app) | Filter task list based on selected checkbox. |
 | [Color Changer](./color-changer-app) | Change the background color using buttons or input. |
 | [Counter App](./counter-app) | A counter app with increment, decrement, and reset options. |
