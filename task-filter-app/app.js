@@ -42,3 +42,6 @@ function filterTask() {
     }
   });
 }
+
+completedCheckbox.addEventListener("change", filterTask);
+pendingCheckbox.addEventListener("change", filterTask);

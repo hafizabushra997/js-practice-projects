@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notes App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>📝 My Notes</h1>
+    <form action="#">
+    <textarea id="noteInput" placeholder="Write your note here..." required></textarea>
+    <button id="saveBtn">Save Note</button>
+</form>
+    
+    <div id="noteList" class="notes-container">
+      <!-- Sample notes -->
+      <!-- <div class="note">
+        <p>This is a sample note about learning JavaScript.</p>
+        <button class="deleteBtn">❌</button>
+      </div>
+      <div class="note">
+        <p>Remember to practice DOM manipulation daily!</p>
+        <button class="deleteBtn">❌</button>
+      </div> -->
+    </div>
+    <div class="clear-all">
+      <button id="clearBtn">Clear All</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

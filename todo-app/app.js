@@ -6,7 +6,6 @@ let clearBtn=document.getElementById('clearBtn')
 todoForm.addEventListener('submit',function(e){
     e.preventDefault()
     addTask()
-    saveTask()
 })
 
 function addTask(){

@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #ffe6f0;
+  background: deeppink;
   color: #333;
   transition: background 0.3s ease, color 0.3s ease;
 }
@@ -14,8 +14,8 @@ body {
   text-align: center;
   background-color: #fff0f5;
   border-radius: 10px;
-  box-shadow: 0 0 10px lightpink;
-  color: rgb(220, 30, 131);
+  box-shadow: 0 0 10px rgb(171, 87, 100);
+  color: rgb(242, 10, 126);
 }
 
 .button {
@@ -50,17 +50,20 @@ input[type="color"] {
 
 .dark-mode {
   background-color: #121212;
-  color: #f0f0f0;
+  /* color: #f0f0f0; */
 }
 
 .dark-mode .container {
   background-color: #1e1e1e;
   box-shadow: 0 0 10px #444;
+  color: #fff;
 }
-
+.dark-mode #currentColorText{
+  color:yellow;
+}
 .dark-mode .button {
   background-color: #333;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .dark-mode input[type="color"] {

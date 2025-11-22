@@ -59,6 +59,7 @@ input::placeholder {
 
 button {
   background: #ff2d75;
+  /* background: deeppink; */
   color: #fff;
   border: none;
   padding: 10px 18px;

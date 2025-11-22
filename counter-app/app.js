@@ -4,7 +4,7 @@ let decreaseBtn = document.getElementById('decrease');
 let resetBtn = document.getElementById('reset');
 
 let count = 0;
-countText.innerHTML = count;
+// countText.innerHTML = count;
 
 increaseBtn.addEventListener('click', () => {
     count++;
